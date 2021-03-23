@@ -206,6 +206,11 @@ header {
 
 /* skills */
 
+#about-pic {
+    width: 120px;
+    padding-bottom: 10px;
+}
+
 .skills {
     display: flex;
     flex-direction: column;
