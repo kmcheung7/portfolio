@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link rel=icon href="./images/favicon_c.png" sizes="16x16" type="image/png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -45,7 +46,7 @@
 
     <!-- Skills -->
     <div class="skills" id="skills">
-        <h2>ABOUT</h2>
+        <h2 data-aos="fade-down">ABOUT</h2>
         <img src="images/profile.png" id="about-pic">
         <h5>Hi, I'm Carmen.
         </br>I love to be creative, learning new things, and integrating arts and concepts with technology.
@@ -98,7 +99,7 @@
 
     <!-- 3D creations -->
     <div class="story" id="story">
-        <h2>3D DESIGNS</h2>
+        <h2 data-aos="fade-down">3D DESIGNS</h2>
         <!-- <h4>Using Blender 2.92</h4> -->
         <h3>MIGRATION to MARS 2050</h3>
         <h5>Elon Musk has been planning to send 1 million people to Mars by 2050.</h5>
@@ -150,7 +151,7 @@
 
     <!-- 2D Graphics -->
     <div class="story" id="products">
-        <h2>2D GRAPHICS</h2>
+        <h2 data-aos="fade-down">2D GRAPHICS</h2>
         <!--<h4>Adobe Illustrator</h4> -->
         <!-- <h3>The Mar's city</h3> -->
         <div class="story-container">
@@ -178,7 +179,7 @@
 
      <!-- WEB DESIGN -->
      <div class="story" id="web">
-        <h2>WEB DESIGN</h2>
+        <h2 data-aos="fade-down">WEB DESIGN</h2>
         <div class="story-container">
             <div class="story1-web">
                 <img src="./images/transparent.png">
@@ -205,7 +206,7 @@
 
     <!-- SMART LIVING PROTOTYPES -->
     <div class="story" id="arduino">
-        <h2>SMART LIVING PROTOTYPES</h2>
+        <h2 data-aos="fade-down">SMART LIVING PROTOTYPES</h2>
         <div class="story-container">
             <div class="story1-video">
                 <video controls poster="./images/bin.png">
@@ -266,7 +267,7 @@
 
      <!-- Circuits -->
      <div class="story" id="circuit">
-        <h2>CIRCUITS</h2>
+        <h2 data-aos="fade-down">CIRCUITS</h2>
         <div class="story-container">
             <div class="story1-video">
                 <video controls poster="./images/xmastree.png">
@@ -328,5 +329,12 @@
     </div>
     
     <script src ="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 100,
+            duration: 500
+        });
+    </script>
 </body>
 </html>
