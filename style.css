@@ -427,6 +427,15 @@ header {
     font-weight: 600;
 }
 
+.story-title-white {
+    margin-top: 8px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
 .story-title a {
     margin-top: 8px;
     font-weight: bold;
@@ -451,6 +460,22 @@ header {
     font-size: 12px;
     font-weight: 500;
     color: #2b2d42;
+    font-style: italic;
+    margin-top: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.story-description-white {
+    width: 300px;
+    margin: auto;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
     font-style: italic;
     margin-top: 10px;
     text-align: left;
