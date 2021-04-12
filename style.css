@@ -470,6 +470,22 @@ header {
     /* border: 1px solid black; */
 }
 
+.story-description-highlight {
+    width: 300px;
+    margin: auto;
+    font-size: 12px;
+    font-weight: 500;
+    color: #e76f51;
+    font-style: italic;
+    margin-top: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
 .story-description-white {
     width: 300px;
     margin: auto;
